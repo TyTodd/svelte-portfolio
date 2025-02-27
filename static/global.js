@@ -18,7 +18,7 @@ const DOUBLE_NESTED =
 
 let pages = [
   { url: "./", title: "Home" },
-  { url: "assignments", title: "Assignments" },
+  // { url: "assignments", title: "Assignments" },
   { url: "resume", title: "Resume" },
   { url: "projects", title: "Projects" },
   { url: "contact", title: "Contact" },
