@@ -1,0 +1,176 @@
+:root {
+  --color-accent: #896a67; /* Example color */
+}
+
+html {
+  accent-color: var(--color-accent);
+  color-scheme: light dark;
+}
+body {
+  /* Set line height to 1.5 times the font size
+       and use the OS’s UI font as the website font
+     */
+  font: 100%/1.5 system-ui;
+  max-width: 100ch;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1 {
+  font-size: 400%;
+  line-height: 1.1;
+  text-wrap: balance;
+}
+h2 {
+  line-height: 1.1;
+  text-wrap: balance;
+}
+h3 {
+  line-height: 1.1;
+  text-wrap: balance;
+}
+h4 {
+  line-height: 1.1;
+  text-wrap: balance;
+}
+h5 {
+  line-height: 1.1;
+  text-wrap: balance;
+}
+h6 {
+  line-height: 1.1;
+  text-wrap: balance;
+}
+
+.info-line {
+  justify-content: flex-between;
+}
+
+.location-year {
+  float: right;
+}
+
+.skills-section {
+  display: flex;
+  flex-direction: row;
+}
+.skills-subsection {
+  flex: 1;
+}
+
+.navbar {
+  margin-left: 20;
+  display: flex;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  /* border-bottom-color: oklch(80% 3% 200); */
+  border-bottom-color: oklch(50% 10% 200 / 40%);
+}
+.nav-link {
+  flex: 1;
+  text-decoration: none;
+  color: inherit;
+  text-align: center;
+}
+
+.nav-link:hover {
+  border-bottom-width: 0.4em;
+  border-bottom-style: solid;
+  border-bottom-color: var(--color-accent);
+  background-color: color-mix(in oklch, var(--color-accent), canvas 85%);
+}
+
+.current {
+  border-bottom-width: 0.4em;
+  border-bottom-style: solid;
+  /* border-bottom-color: oklch(80% 3% 200); */
+  border-bottom-color: oklch(50% 10% 200 / 40%);
+  font-weight: bold;
+}
+
+.contact-form {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 1em;
+  font: inherit;
+  /* grid-column: 1 / -1; */
+}
+
+/* .contact-input {
+  font: inherit;
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.contact-button {
+  font: inherit;
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+}
+.contact-textarea {
+  font: inherit;
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+}
+.contact-label {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  margin-block: 20px;
+} */
+
+.contact-label {
+  display: grid;
+  grid-template-columns: subgrid;
+  grid-column: 1 / -1;
+  font: inherit;
+  /* grid-column: 1 / -1; */
+}
+
+.contact-button {
+  display: grid;
+  grid-column: 1 / -1;
+  font: inherit;
+}
+
+.contact-input {
+  font: inherit;
+}
+
+.contact-textarea {
+  font: inherit;
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(15em, 1fr));
+}
+
+.projects article {
+  display: grid;
+  grid-template-rows: subgrid;
+  grid-row: span 3;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.projects article h2 {
+  margin: 0;
+}
+.color-scheme {
+  position: absolute;
+  top: 0.5rem;
+  right: 1rem;
+  display: inline-flex;
+  gap: 4px;
+  font-family: inherit;
+  font-size: 80%;
+}
