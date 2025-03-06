@@ -17,11 +17,11 @@ const DOUBLE_NESTED =
   document.documentElement.classList.contains("double-nested");
 
 let pages = [
-  { url: "/", title: "Home" },
+  { url: "/svelte-portfolio/", title: "Home" },
   // { url: "assignments", title: "Assignments" },
-  { url: "/resume/", title: "Resume" },
-  { url: "/projects/", title: "Projects" },
-  { url: "/contact/", title: "Contact" },
+  { url: "/svelte-portfolio/resume/", title: "Resume" },
+  { url: "/svelte-portfolio/projects/", title: "Projects" },
+  { url: "/svelte-portfolio/contact/", title: "Contact" },
   { url: "https://github.com/TyTodd", title: "Github" },
 ];
 
