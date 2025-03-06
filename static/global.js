@@ -17,11 +17,11 @@ const DOUBLE_NESTED =
   document.documentElement.classList.contains("double-nested");
 
 let pages = [
-  { url: "./", title: "Home" },
+  { url: "/", title: "Home" },
   // { url: "assignments", title: "Assignments" },
-  { url: "resume", title: "Resume" },
-  { url: "projects", title: "Projects" },
-  { url: "contact", title: "Contact" },
+  { url: "/resume/", title: "Resume" },
+  { url: "/projects/", title: "Projects" },
+  { url: "/contact/", title: "Contact" },
   { url: "https://github.com/TyTodd", title: "Github" },
 ];
 
@@ -35,14 +35,22 @@ for (let p of pages) {
   //   url = "../" + url;
   //   // console.log("not home");
   // }
-  if (DOUBLE_NESTED && !url.startsWith("http")) {
-    url = "../" + url;
-    // console.log("double nested");
-  }
+  // if (DOUBLE_NESTED && !url.startsWith("http")) {
+  //   url = "../" + url;
+  //   // console.log("double nested");
+  // }
   //   console.log(url);
   // Create link and add it to nav
   //   nav.insertAdjacentHTML("beforeend", `<a href="${url}">${title}</a>`);
   let a = document.createElement("a");
+  // if (url !== "./" && !url.startsWith("http")) {
+  //   const basePath = location.pathname.split("/").slice(0, -1).join("/");
+  //   url = `${basePath}/${url}`;
+  // }
+  // if (url.endsWith("/")) {
+  //   url = url.slice(0, -1);
+  // }
+  console.log("url", p, url);
   a.href = url;
   a.textContent = title;
   nav.append(a);
