@@ -2,31 +2,31 @@
   {
     "title": "Real Life Mario Kart",
     "year": "2025",
-    "image": "/images/mario_kart.jpeg",
+    "image": "./images/mario_kart.jpeg",
     "description": "Worked with a team of my friends to hack Electric go-karts to make them play Mario Kart in real life. Implemented localization, comms, and a GUI to enable karts to receive and send buffs and debuffs such as banana peels red shells, blue shells, and bullet bills."
   },
   {
     "title": "A1",
     "year": "2025",
-    "image": "/images/A4.png",
+    "image": "./images/A4.png",
     "description": "The three graphs analyze gender distribution and population changes from 1900 to 2000. The first graph, a normalized representation, highlights shifts in the male-to-female ratio but lacks population size context. The second graph, a population pyramid, compares age and gender distribution across the two years, though normalization caused scaling issues for older age groups. The third graph visualizes raw population changes in 20-year age groups using circles, but using diameter instead of area made the differences appear exaggerated. Color coding for gender was effective, but scaling choices had trade-offs in clarity and accuracy."
   },
   {
     "title": "A2",
     "year": "2025",
-    "image": "/images/A2.png",
+    "image": "./images/A2.png",
     "description": "An analysis of corporate landlords and evictions, drawing from personal experience growing up in a low-income household and current trends. The data shows corporate landlords aggressively expanded during COVID-19 while individual landlords declined, particularly in wealthy, white neighborhoods of Boston. Research reveals racial disparities in property ownership and investment opportunities. The findings support New York Times reporting that corporate landlords are more likely to evict tenants, treating housing purely as an investment. This suggests a need for stronger tenant protections and policies favoring individual landlords over corporate consolidation."
   },
   {
     "title": "A3",
     "year": "2025",
-    "image": "/images/A3.png",
+    "image": "./images/A3.png",
     "description": "A visualization project exploring COVID-19 case trends over time, evolving from initial line graphs and bar charts to a final Gantt chart design in Tableau. The final visualization uses a calendar-like layout with bubble sizes representing case counts, effectively showing both chronological progression and seasonal patterns of COVID-19 surges across 2020-2022. This approach successfully balances clarity with insight, making complex data patterns accessible while preserving the cyclical nature of case surges originally highlighted in the New York Times spiral chart."
   },
   {
     "title": "A4",
     "year": "2025",
-    "image": "/images/A4.png",
+    "image": "./images/A4.png",
     "description": "A data visualization project analyzing police misconduct allegations across different ethnic groups. The project explored various design choices in data presentation, including normalization methods, categorization of allegations, and filtering decisions. Key challenges included handling demographic imbalances in the data and ethical considerations around data filtering. The work highlighted how visualization choices can significantly impact narrative and demonstrated the importance of transparency in data storytelling."
   },
   {
