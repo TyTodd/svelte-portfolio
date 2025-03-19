@@ -35,9 +35,9 @@
   </p>
   <p class="info-line">
     <b>Relevant Coursework:</b>
-    Natural Language Processing,Computer Vision, Robotics: Science and
-    Systems, Machine Learning, Deep Learning, Algorithms, Optimization
-    Methods, Interconnected Embedded Systems, Mobile Autonomous Systems Lab
+    Natural Language Processing,Computer Vision, Robotics: Science and Systems, Machine
+    Learning, Deep Learning, Algorithms, Optimization Methods, Interconnected Embedded
+    Systems, Mobile Autonomous Systems Lab
   </p>
   <p>
     <b>GPA: 4.5/5.0</b>
@@ -53,10 +53,10 @@
     </p>
     <ul>
       <li>
-        <b>(AI, Python)</b>Implementing preference optimization algorithms
-        such as DPO and KTO to train a transformer based music generation
-        model and subsequently submitting the algorithms as a PR to the open
-        source platform Levanter.
+        <b>(AI, Python)</b>Implementing preference optimization algorithms such
+        as DPO and KTO to train a transformer based music generation model and
+        subsequently submitting the algorithms as a PR to the open source
+        platform Levanter.
       </li>
     </ul>
   </article>
@@ -71,10 +71,10 @@
     </p>
     <ul>
       <li>
-        <b>(NextJS, Python, LLMs, Knowledge Graphs)</b>Developed novel
-        knowledge graph pipelines and GraphRAG methods to create the first
-        AI agent that uses product data, conversation history, and other
-        context to scale customer success to SMBs for B2B SaaS companies.
+        <b>(NextJS, Python, LLMs, Knowledge Graphs)</b>Developed novel knowledge
+        graph pipelines and GraphRAG methods to create the first AI agent that
+        uses product data, conversation history, and other context to scale
+        customer success to SMBs for B2B SaaS companies.
       </li>
       <li>
         Raised $360,000 in VC funding and led a team of 3 engineers, gaining
@@ -94,8 +94,8 @@
     <ul>
       <li>
         <b>(React JS, Node JS)</b>Created a library with documentation to
-        seamlessly integrate OpenTelemetry into Bloomberg web apps. The
-        library successfully integrated OpenTelemetry into Bloomberg’s video
+        seamlessly integrate OpenTelemetry into Bloomberg web apps. The library
+        successfully integrated OpenTelemetry into Bloomberg’s video
         conferencing software, ROOM.
       </li>
     </ul>
@@ -131,8 +131,8 @@
     </p>
     <ul>
       <li>
-        Oversaw a $10,000 budget to maintain the maker space in the New
-        House residence hall
+        Oversaw a $10,000 budget to maintain the maker space in the New House
+        residence hall
       </li>
     </ul>
   </article>
@@ -147,9 +147,9 @@
     </p>
     <ul>
       <li>
-        <b>(C++)</b> Designed, fabricated, and programmed a semi-autonomous
-        robot for MIT’s 2.S007 semi-autonomous robotics competition class.
-        Took third place in the entire class
+        <b>(C++)</b> Designed, fabricated, and programmed a semi-autonomous robot
+        for MIT’s 2.S007 semi-autonomous robotics competition class. Took third place
+        in the entire class
       </li>
       <li>
         Link:
@@ -167,8 +167,8 @@
     <div class="skills-subsection">
       <ul>
         <li>
-          Programming: Python, Javascript/React, C/C++, C#, React, Native,
-          Java, SQL
+          Programming: Python, Javascript/React, C/C++, C#, React, Native, Java,
+          SQL
         </li>
         <li>Robot Operating System 2 (ROS2)</li>
         <li>IoT</li>

@@ -165,7 +165,7 @@ h6 {
 .projects article h2 {
   margin: 0;
 }
-.color-scheme {
+/* .color-scheme {
   position: absolute;
   top: 0.5rem;
   right: 1rem;
@@ -173,4 +173,4 @@ h6 {
   gap: 4px;
   font-family: inherit;
   font-size: 80%;
-}
+} */
