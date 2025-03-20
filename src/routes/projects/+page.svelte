@@ -46,8 +46,6 @@
 <svelte:head>
   <title>Tyrin: Projects</title>
 </svelte:head>
-{selectedYearIndex}
-{selectedYear}
 <h1>{filteredByYear.length} Projects</h1>
 <Pie data={pieData} bind:selectedIndex={selectedYearIndex} />
 <input
