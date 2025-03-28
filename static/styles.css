@@ -174,3 +174,33 @@ h6 {
   font-family: inherit;
   font-size: 80%;
 } */
+
+.stats dl {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  font-family: system-ui, sans-serif;
+  margin: 1rem 0;
+}
+.stats dt {
+  grid-row: 1;
+  font-weight: 600;
+  color: oklch(50% 10% 200);
+  text-align: center;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+.stats dd {
+  grid-row: 2;
+  margin: 0;
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+.stats {
+  border: 1px solid oklch(50% 10% 200 / 40%);
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  background-color: color-mix(in oklch, var(--color-accent), canvas 95%);
+}
