@@ -30,6 +30,12 @@
     "description": "A data visualization project analyzing police misconduct allegations across different ethnic groups. The project explored various design choices in data presentation, including normalization methods, categorization of allegations, and filtering decisions. Key challenges included handling demographic imbalances in the data and ethical considerations around data filtering. The work highlighted how visualization choices can significantly impact narrative and demonstrated the importance of transparency in data storytelling."
   },
   {
+    "title": "Bikewatcher",
+    "year": "2025",
+    "image": "./images/bikewatcher.png",
+    "description": "Data visualization project monitoring blue bike traffic in the Boston area."
+  },
+  {
     "title": "Quam enim tempora veniam.",
     "year": "2024",
     "image": "https://vis-society.github.io/labs/2/images/empty.svg",
