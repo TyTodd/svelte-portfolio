@@ -11,12 +11,12 @@
   const firstColumnWidth = 150;
   const fileInfoMargin = 250;
   const dotsColumnX = firstColumnWidth + fileInfoMargin;
-  const approxDotWidth = 30;
+  const approxDotWidth = 15;
   const linesPerDot = 1;
   const baseY = 25;
   const lineCountOffset = 25;
-  const fileInfoHeight = baseY + lineCountOffset + 20;
-  const dotRowHeight = 15;
+  const fileInfoHeight = baseY + lineCountOffset + 30;
+  const dotRowHeight = 12;
 
   let previousDotCounts = new Map();
 

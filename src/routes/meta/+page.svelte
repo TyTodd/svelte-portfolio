@@ -42,12 +42,11 @@
 
   $: {
     let charCount = 0;
-    if (filteredLines.length > 0) {
-      filteredLines.forEach((d) => {
+    if (data.length > 0) {
+      data.forEach((d) => {
         charCount += d.length;
       });
-      averageCharCount =
-        Math.round((charCount / filteredLines.length) * 10) / 10;
+      averageCharCount = Math.round((charCount / data.length) * 10) / 10;
     } else {
       averageCharCount = 0;
     }
@@ -120,7 +119,7 @@ This page includes states about the code of this website.
     <dt>Total <abbr title="Lines of code">LOC</abbr></dt>
     <dd>{data.length}</dd>
     <dt>Total Commits</dt>
-    <dd>{filteredCommits.length}</dd>
+    <dd>{commits.length}</dd>
     <dt>Average Character Count</dt>
     <dd>{averageCharCount}</dd>
   </dl>
